@@ -9,7 +9,7 @@ jobs:
     steps:
       - 
         name: Checkout
-        user: actions/checkout@v2
+        uses: actions/checkout@v2
       - 
         name: format
         run: go fmt ./...
