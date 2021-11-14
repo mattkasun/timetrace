@@ -14,5 +14,5 @@ jobs:
         name: format
         run: go fmt ./...
       - 
-        test: test
+        name: test
         run: go test -v ./...
